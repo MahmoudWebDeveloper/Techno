@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Gym Website</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li class="img"><img src="../download (3).jpeg" alt="logo"></li>
+                <li class="the-x" onclick= hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"  height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./service.html">Services</a></li>
+                <li><a href="./schedule.html"> Schedule</a></li>
+                <li><a href="./membership.html">Membership</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li class="hideOnMobile"><a href="../index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="./about.html">About</a></li>
+                <li class="hideOnMobile"><a href="./service.html">Services</a></li>
+                <li class="hideOnMobile"><a href="./schedule.html"> Schedule</a></li>
+                <li class="hideOnMobile"><a href="./membership.html">Membership</a></li>
+                <li class="hideOnMobile"><a href="./contact.html">Contact</a></li>
+                <li class="menu" onclick= showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="services">
+        <h1>Our Services</h1>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="path/to/service1.jpg" alt="Service 1">
+                <h2>Personal Training</h2>
+                <p>Get personalized training programs designed just for you.</p>
+            </div>
+            <div class="service-card">
+                <img src="path/to/service2.jpg" alt="Service 2">
+                <h2>Group Classes</h2>
+                <p>Join our group classes for an engaging and fun workout experience.</p>
+            </div>
+            <div class="service-card">
+                <img src="path/to/service3.jpg" alt="Service 3">
+                <h2>Nutrition Advice</h2>
+                <p>Receive professional nutrition advice to complement your workouts.</p>
+            </div>
+            <!-- Add more service cards as needed -->
+        </div>
+    </section>
+        <footer>
+        <div class="footer-container">
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p>&copy; 2024 TechnoGym. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="../main.js"></script>
+</body>
+</html>

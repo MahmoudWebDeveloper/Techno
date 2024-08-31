@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Gym Website</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li class="img"><img src="../download (3).jpeg" alt="logo"></li>
+                <li class="the-x" onclick= hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"  height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./service.html">Services</a></li>
+                <li><a href="./schedule.html"> Schedule</a></li>
+                <li><a href="./membership.html">Membership</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li class="hideOnMobile"><a href="../index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="./about.html">About</a></li>
+                <li class="hideOnMobile"><a href="./service.html">Services</a></li>
+                <li class="hideOnMobile"><a href="./schedule.html"> Schedule</a></li>
+                <li class="hideOnMobile"><a href="./membership.html">Membership</a></li>
+                <li class="hideOnMobile"><a href="./contact.html">Contact</a></li>
+                <li class="menu" onclick= showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="location">
+        <h1>Our Location</h1>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13826.129945305396!2d31.3054475!3d29.9641234!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458384d932feca7%3A0x595d90d5a82a1fa5!2sTechno%20Gym!5e0!3m2!1sen!2seg!4v1719262955084!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="photo-gallery">
+        <h1>Our Gym Photos</h1>
+        <div class="gallery-container">
+            <div class="photo-card">
+                <img src="path/to/photo1.jpg" alt="Gym Photo 1">
+                <p>State-of-the-art Equipment</p>
+            </div>
+            <div class="photo-card">
+                <img src="path/to/photo2.jpg" alt="Gym Photo 2">
+                <p>Spacious Workout Areas</p>
+            </div>
+            <div class="photo-card">
+                <img src="path/to/photo3.jpg" alt="Gym Photo 3">
+                <p>Group Classes</p>
+            </div>
+            <div class="photo-card">
+                <img src="path/to/photo3.jpg" alt="Gym Photo 3">
+                <p>Group Classes</p>
+            </div>
+            <div class="photo-card">
+                <img src="path/to/photo3.jpg" alt="Gym Photo 3">
+                <p>Group Classes</p>
+            </div>
+            <div class="photo-card">
+                <img src="path/to/photo3.jpg" alt="Gym Photo 3">
+                <p>Group Classes</p>
+            </div>
+            <!-- Add more photo cards as needed -->
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p>&copy; 2024 TechnoGym. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="../main.js"></script>
+</body>
+</html>

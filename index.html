@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techno Gym</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar hamburgar-menu">
+                <li class="img"><img src="./download (3).jpeg" alt="logo"></li>
+                <li class="the-x" onclick= hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"  height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./HTML files/about.html">About</a></li>
+                <li><a href="./HTML files/service.html">Services</a></li>
+                <li><a href="./HTML files/schedule.html"> Schedule</a></li>
+                <li><a href="./HTML files/membership.html">Membership</a></li>
+                <li><a href="./HTML files/contact.html">Contact</a></li>
+            </ul>
+            <ul >
+                <li class="hideOnMobile"><a href="./index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="./HTML files/about.html">About</a></li>
+                <li class="hideOnMobile"><a href="./HTML files/service.html">Services</a></li>
+                <li class="hideOnMobile"><a href="./HTML files/schedule.html"> Schedule</a></li>
+                <li class="hideOnMobile"><a href="./HTML files/membership.html">Membership</a></li>
+                <li class="hideOnMobile"><a href="./HTML files/contact.html">Contact</a></li>
+                <li class="menu" onclick= "showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to Our Gym</h1>
+        <p>Get fit, stay healthy, and enjoy your life!</p>
+        <button style="border-radius: 10px;"><a class="join-now-btn" href="./HTML files/membership.html">Join Now</a></button>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-text">
+                <p>&copy; 2024 Gym Website. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
